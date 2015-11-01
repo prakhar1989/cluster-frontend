@@ -1,0 +1,132 @@
+body {
+    color: #d2d2d2;
+    background: black;
+}
+div.sidebar {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #282828;
+    width: 240px;
+    height: 100%;
+    padding: 50px 0;
+}
+div.sidebar div.server-action {
+    display: inline-block;
+    margin: 0 10px 40px 0;
+}
+div.sidebar div.server-action p {
+    font-size: 12px;
+    color: #969696;
+}
+
+div.server-area {
+    margin: 0 0 40px 260px;
+}
+div.server-area div.servers {
+   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+   display: -ms-flexbox;  /* TWEENER - IE 10 */
+   display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+   flex-wrap: wrap;
+}
+div.app-area p {
+    text-align: left;
+    font-size: 12px;
+    padding: 0 10px;
+    color: #969696;
+}
+div.app-area ul {
+    padding: 0;
+}
+div.app-area ul li {
+    text-align: left;
+    border-left: 4px solid #DC2424;
+    list-style-type: none;
+    padding: 20px 0 20px 30px;
+    font-size: 12px;
+    border-top: 1px solid #393939;
+    border-bottom: 1px solid #393939;
+}
+div.app-area ul li div.actions {
+    float: right;
+    margin-right: 20px;
+}
+button {
+    background: none;
+    border: 1px solid white;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+button:hover {
+    background: white;
+    color: black;
+}
+button.big {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+div.server {
+    background: #282828;
+    width: 240px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+}
+div.server div.instance {
+    display: inline-block;
+    height: 100%;
+    color: white;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    font-weight: 800;
+}
+.spark {
+    background: -webkit-linear-gradient(90deg, #DC2424 10%, #e35050 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #DC2424 10%, #e35050 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #DC2424 10%, #e35050 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #DC2424 10%, #e35050 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #DC2424 10%, #e35050 90%); /* W3C */
+} 
+.hadoop { 
+    background: -webkit-linear-gradient(90deg, #6441A5 10%, #7e5bbe 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #6441A5 10%, #7e5bbe 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #6441A5 10%, #7e5bbe 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #6441A5 10%, #7e5bbe 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #6441A5 10%, #7e5bbe 90%); /* W3C */
+} 
+.rails { 
+    background: -webkit-linear-gradient(90deg, #43cea2 10%, #79dcbd 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #43cea2 10%, #79dcbd 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #43cea2 10%, #79dcbd 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #43cea2 10%, #79dcbd 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #43cea2 10%, #79dcbd 90%); /* W3C */
+} 
+.chronos { 
+    background: -webkit-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #ffb347 10%, #ffcc33 90%); /* W3C */
+} 
+.storm { 
+    background: -webkit-linear-gradient(90deg, #11d0e2 10%, #36e0f0 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #11d0e2 10%, #36e0f0 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #11d0e2 10%, #36e0f0 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #11d0e2 10%, #36e0f0 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #11d0e2 10%, #36e0f0 90%); /* W3C */
+} 
