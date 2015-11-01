@@ -10,12 +10,11 @@
     "remove-dist": "rm ./build/main.min.js",
     "build-standalone": "NODE_ENV=production browserify -t babelify ./src/app.js | uglifyjs -mc > build/main.min.js"
   },
-  "author": "",
+  "author": "Prakhar Srivastav",
   "license": "ISC",
   "dependencies": {
     "babelify": "^6.4.0",
     "browserify": "^12.0.0",
-    "moment": "^2.10.6",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "uglify-js": "^2.5.0",
